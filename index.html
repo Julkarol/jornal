@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal Digital - Tecnologia em Destaque</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #5b2c83;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #e9e9f7;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 3px solid #5b2c83;
+        }
+
+        nav a {
+            color: #5b2c83;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        h2, h3 {
+            color: #5b2c83;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .highlight {
+            background-color: #e0e0ff;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #5b2c83;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Jornal Digital - Tecnologia em Destaque</h1>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Tecnologia</a>
+        <a href="#">Inovações</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="https://i.imgur.com/YySAaMT.jpg" alt="Máquinas Virtuais">
+            <div class="card-content">
+                <h2>Máquinas Virtuais</h2>
+                <p>Máquinas virtuais (VMs) permitem que múltiplos sistemas operacionais e aplicações rodem de forma independente em um único hardware físico. Isso é possível graças à virtualização, onde um hipervisor controla e gerencia os recursos.</p>
+                <div class="highlight">Vantagens: Facilidade de gerenciamento, escalabilidade, isolamento de falhas e uso eficiente de recursos.</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://i.imgur.com/LBzBlpg.jpg" alt="Redes Virtuais">
+            <div class="card-content">
+                <h2>Redes Virtuais</h2>
+                <p>Redes virtuais (VNets) são criadas sobre uma infraestrutura física existente e permitem a segmentação de redes em ambientes virtuais. Isso melhora a segurança e a administração, pois cada segmento pode ter políticas de segurança personalizadas.</p>
+                <div class="highlight">Aplicações: Redes privadas em nuvens públicas, redes corporativas segmentadas e ambientes de testes.</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://i.imgur.com/ScpPNvl.jpg" alt="Servidor de Aplicativo">
+            <div class="card-content">
+                <h2>Servidor de Aplicativo</h2>
+                <p>Um servidor de aplicativo é uma plataforma que gerencia e executa aplicações complexas em ambientes web ou de rede, oferecendo serviços como processamento de lógica de negócio, conectividade com banco de dados e segurança.</p>
+                <div class="highlight">Exemplos: Apache Tomcat, Microsoft IIS, JBoss.</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://i.imgur.com/xXKEDTK.jpg" alt="Banco de Dados">
+            <div class="card-content">
+                <h2>Banco de Dados</h2>
+                <p>Bancos de dados são essenciais para armazenar e organizar grandes volumes de informações. O banco de dados pode ser relacional (SQL) ou não-relacional (NoSQL), dependendo da necessidade de estruturação dos dados.</p>
+                <div class="highlight">Exemplos: MySQL, PostgreSQL, MongoDB, Oracle.</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://i.imgur.com/zqKpFpg.jpg" alt="Aegix - Soluções de Tecnologia de Ponta">
+            <div class="card-content">
+                <h2>Aegix - Soluções de Tecnologia de Ponta</h2>
+                <p>A Aegix é especializada em soluções de tecnologia de ponta para redes de computadores, oferecendo as melhores soluções de conectividade, segurança e disponibilidade, para que seus sistemas funcionem sem interrupções.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://i.imgur.com/zM8bJ8v.jpg" alt="Conectividade">
+            <div class="card-content">
+                <h3>Pilar 1: Conectividade</h3>
+                <p>Na Aegix, nossa prioridade é garantir a conectividade perfeita entre dispositivos e usuários. Com soluções de roteamento de ponta, garantimos que os dados trafeguem de forma rápida e segura, permitindo operações eficientes em todos os pontos da rede.</p>
+                <div class="highlight">Soluções de Roteamento Avançadas: Protocolos de roteamento dinâmico, segmentação de tráfego e balanceamento de carga.</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://i.imgur.com/wPMKGjH.jpg" alt="Segurança">
+            <div class="card-content">
+                <h3>Pilar 2: Segurança</h3>
+                <p>A Aegix oferece proteção avançada contra ameaças cibernéticas com uma combinação de firewalls, criptografia, sistemas de detecção de intrusão e outras soluções de segurança de última geração.</p>
+                <div class="highlight">Tecnologias Utilizadas: Firewalls de última geração, criptografia AES, IDS/IPS, VPNs seguras.</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://i.imgur.com/30Fy0lG.jpg" alt="Disponibilidade">
+            <div class="card-content">
+                <h3>Pilar 3: Disponibilidade</h3>
+                <p>Garantimos uptime 24/7 com soluções de alta disponibilidade, incluindo dispositivos redundantes e recuperação automática, assegurando que os sistemas críticos estejam sempre operacionais.</p>
+                <div class="highlight">Garantias: SLA com uptime de 99.999%, recuperação em tempo real, backups automáticos.</div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Jornal Digital. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
